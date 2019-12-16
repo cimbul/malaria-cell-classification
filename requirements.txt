@@ -9,4 +9,4 @@ scikit-learn ~= 0.20.3
 scipy ~= 1.2
 
 # Or substitute your favorite Keras backend
-tensorflow ~= 1.13
+tensorflow ~= 1.15
