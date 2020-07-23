@@ -1,12 +1,14 @@
-joblib ~= 0.13.2
-Keras ~= 2.2
-matplotlib ~= 3.0
-numpy ~= 1.16
-pandas ~= 0.24.2
-requests ~= 2.18
-scikit-image ~= 0.15.0
-scikit-learn ~= 0.20.3
-scipy ~= 1.2
+ipykernel ~= 5.3
+joblib ~= 0.16.0
+Keras == 2.3.*  # v2.4 dropped support for non-TF backends
+matplotlib ~= 3.3
+numpy ~= 1.19
+pandas ~= 1.0
+requests ~= 2.24
+scikit-image ~= 0.17.2
+scikit-learn ~= 0.23.1
+scipy ~= 1.5
 
-# Or substitute your favorite Keras backend
-tensorflow ~= 1.13
+# Choose one or substitute your favorite Keras backend
+tensorflow ~= 2.2
+plaidml-keras ~= 0.7
