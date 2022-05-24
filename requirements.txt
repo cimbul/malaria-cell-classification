@@ -10,5 +10,5 @@ scikit-learn ~= 0.23.1
 scipy ~= 1.5
 
 # Choose one or substitute your favorite Keras backend
-tensorflow ~= 2.2
+tensorflow ~= 2.6
 plaidml-keras ~= 0.7
